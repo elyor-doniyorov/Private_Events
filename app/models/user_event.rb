@@ -1,4 +1,4 @@
 class UserEvent < ApplicationRecord
-    belongs_to :user
-    belongs_to :invite
+  belongs_to :user
+  belongs_to :invite
 end
