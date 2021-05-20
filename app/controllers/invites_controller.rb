@@ -19,18 +19,6 @@ class InvitesController < ApplicationController
     end
   end
 
-  # def activate
-  #   @event = Event.find(params[:event_id])
-  #   @invite = Invite.find(@event.id)
-  #   @invite.update(discription: true)
-  #   redirect_to root_path
-  # end
-
-  # def deactivate
-  #   @event = Event.find(params[:event_id])
-  #   @invite = Invite.find(@event.id)
-  #   @invite.update(discription: false)
-  # end
   private
 
   def invite_params
